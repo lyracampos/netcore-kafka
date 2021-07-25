@@ -1,4 +1,4 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{76D167C6-B70C-4809-9EF4-15BEDE066D00}|Default">
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,4 +14,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NetCore.Kafka.Producer PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
 </Properties>

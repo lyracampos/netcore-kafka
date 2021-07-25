@@ -1,5 +1,8 @@
 using System.Linq;
+using System.Threading.Tasks;
+using Confluent.Kafka;
 using Microsoft.AspNetCore.Mvc;
+using NetCore.Kafka.Platform.Interfaces;
 using NetCore.Kafka.Producer.Models;
 
 namespace NetCore.Kafka.Producer.Controllers
@@ -8,9 +11,17 @@ namespace NetCore.Kafka.Producer.Controllers
     [Route("api/[controller]")]
     public class OrderController : ControllerBase
     {
-        [HttpPost]
-        public IActionResult Post([FromBody] OrderRequest request)
+        private readonly IKafkaProducer<string, OrderRequest> _kafkaProducer;
+
+        public OrderController(IKafkaProducer<string, OrderRequest> kafkaProducer)
         {
+            _kafkaProducer = kafkaProducer;
+        }
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] OrderRequest request)
+        {
+            await _kafkaProducer.ProduceAsync("PedidoRealizado", null, request);
+
             return Ok(request.Itens.Count());
         }
     }

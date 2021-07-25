@@ -1,16 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Confluent.Kafka;
+using NetCore.Kafka.Platform.Producer;
+using NetCore.Kafka.Platform.Interfaces;
 
 namespace NetCore.Kafka.Producer
 {
@@ -26,12 +22,19 @@ namespace NetCore.Kafka.Producer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NetCore.Kafka.Producer", Version = "v1" });
             });
+
+            var producerConfig = new ProducerConfig(new ClientConfig
+            {
+	            BootstrapServers = Configuration["Kafka:ClientConfigs:BootstrapServers"]
+			});
+
+            services.AddSingleton(producerConfig);
+            services.AddSingleton(typeof(IKafkaProducer<,>), typeof(KafkaProducer<,>));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,8 +46,6 @@ namespace NetCore.Kafka.Producer
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "NetCore.Kafka.Producer v1"));
             }
-
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 

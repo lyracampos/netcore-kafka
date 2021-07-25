@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "unyCu37hk0UTW1sjqykjoAIxvKwL4sKvwNh+LVK0mgOgQ7UHJFtIlhQ2S5mO7xxKSb3KjHzZLhFV5wmqH6rvGw==",
+  "dgSpecHash": "w5xxQgoE56wITtRRie7XO0cQUSsF3po0RCDDEVNi07R5LYDgxgrhBjBU/U3RIdq9ZhyQSUdqzm76SGQ4WpTwlA==",
   "success": true,
   "projectFilePath": "/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Platform/NetCore.Kafka.Platform.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/guilhermelyracampos/.nuget/packages/confluent.kafka/1.7.0/confluent.kafka.1.7.0.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/librdkafka.redist/1.7.0/librdkafka.redist.1.7.0.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.2/microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
