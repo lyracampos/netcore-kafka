@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6EB3yXnFCX041tvIwEzsA4maHnTcwqbkZQBErp03yf4LqWy9MO0i0yb7tvXuUbiP76VoflaAM3Rli+6OOD5eEw==",
+  "success": true,
+  "projectFilePath": "/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Producer/NetCore.Kafka.Producer.csproj",
+  "expectedPackageFiles": [
+    "/Users/guilhermelyracampos/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/guilhermelyracampos/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
