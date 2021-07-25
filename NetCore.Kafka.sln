@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Kafka.Producer", "NetCore.Kafka.Producer\NetCore.Kafka.Producer.csproj", "{76D167C6-B70C-4809-9EF4-15BEDE066D00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Kafka.Consumer", "NetCore.Kafka.Consumer\NetCore.Kafka.Consumer.csproj", "{E056002C-F968-48DB-BF5F-B8DCCD04E770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Kafka.Platform", "NetCore.Kafka.Platform\NetCore.Kafka.Platform.csproj", "{5EB80AFA-E621-4221-B218-F167F5074BDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,29 @@ Global
 		{76D167C6-B70C-4809-9EF4-15BEDE066D00}.Release|x64.Build.0 = Release|Any CPU
 		{76D167C6-B70C-4809-9EF4-15BEDE066D00}.Release|x86.ActiveCfg = Release|Any CPU
 		{76D167C6-B70C-4809-9EF4-15BEDE066D00}.Release|x86.Build.0 = Release|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Debug|x64.Build.0 = Debug|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Debug|x86.Build.0 = Debug|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Release|x64.ActiveCfg = Release|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Release|x64.Build.0 = Release|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Release|x86.ActiveCfg = Release|Any CPU
+		{E056002C-F968-48DB-BF5F-B8DCCD04E770}.Release|x86.Build.0 = Release|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Debug|x64.Build.0 = Debug|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Debug|x86.Build.0 = Debug|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Release|x64.ActiveCfg = Release|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Release|x64.Build.0 = Release|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EB80AFA-E621-4221-B218-F167F5074BDC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
