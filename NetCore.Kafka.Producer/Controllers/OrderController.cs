@@ -1,9 +1,9 @@
 using System.Linq;
 using System.Threading.Tasks;
-using Confluent.Kafka;
 using Microsoft.AspNetCore.Mvc;
 using NetCore.Kafka.Platform.Interfaces;
 using NetCore.Kafka.Producer.Models;
+using NetCore.Kafka.Messages.Topics;
 
 namespace NetCore.Kafka.Producer.Controllers
 {
@@ -20,7 +20,7 @@ namespace NetCore.Kafka.Producer.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] OrderRequest request)
         {
-            await _kafkaProducer.ProduceAsync("PedidoRealizado", null, request);
+            await _kafkaProducer.ProduceAsync(OrderTopics.CreateOrder, null, request);
 
             return Ok(request.Itens.Count());
         }

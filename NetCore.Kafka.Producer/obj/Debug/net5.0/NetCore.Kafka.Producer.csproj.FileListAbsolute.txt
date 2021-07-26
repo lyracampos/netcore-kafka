@@ -49,3 +49,5 @@
 /Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Producer/bin/Debug/net5.0/NetCore.Kafka.Platform.dll
 /Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Producer/bin/Debug/net5.0/NetCore.Kafka.Platform.pdb
 /Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Producer/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Producer/bin/Debug/net5.0/NetCore.Kafka.Messages.dll
+/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Producer/bin/Debug/net5.0/NetCore.Kafka.Messages.pdb

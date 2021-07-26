@@ -559,6 +559,16 @@
           }
         }
       },
+      "NetCore.Kafka.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/NetCore.Kafka.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetCore.Kafka.Messages.dll": {}
+        }
+      },
       "NetCore.Kafka.Platform/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1417,6 +1427,11 @@
         "version.txt"
       ]
     },
+    "NetCore.Kafka.Messages/1.0.0": {
+      "type": "project",
+      "path": "../NetCore.Kafka.Messages/NetCore.Kafka.Messages.csproj",
+      "msbuildProject": "../NetCore.Kafka.Messages/NetCore.Kafka.Messages.csproj"
+    },
     "NetCore.Kafka.Platform/1.0.0": {
       "type": "project",
       "path": "../NetCore.Kafka.Platform/NetCore.Kafka.Platform.csproj",
@@ -1426,6 +1441,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.Extensions.Hosting >= 5.0.0",
+      "NetCore.Kafka.Messages >= 1.0.0",
       "NetCore.Kafka.Platform >= 1.0.0"
     ]
   },
@@ -1458,6 +1474,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Messages/NetCore.Kafka.Messages.csproj": {
+              "projectPath": "/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Messages/NetCore.Kafka.Messages.csproj"
+            },
             "/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Platform/NetCore.Kafka.Platform.csproj": {
               "projectPath": "/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Platform/NetCore.Kafka.Platform.csproj"
             }

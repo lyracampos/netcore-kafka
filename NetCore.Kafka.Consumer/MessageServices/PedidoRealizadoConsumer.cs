@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using NetCore.Kafka.Consumer.Models;
+using NetCore.Kafka.Messages.Topics;
 using NetCore.Kafka.Platform.Interfaces;
 
 namespace NetCore.Kafka.Consumer.MessageServices
@@ -19,7 +20,7 @@ namespace NetCore.Kafka.Consumer.MessageServices
 		{
 			try
 			{
-				await _consumer.Consume("PedidoRealizado", stoppingToken);
+				await _consumer.Consume(OrderTopics.CreateOrder, stoppingToken);
 			}
 			catch (Exception ex)
 			{

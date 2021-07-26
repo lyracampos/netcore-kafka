@@ -11,5 +11,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NetCore.Kafka.Platform\NetCore.Kafka.Platform.csproj" />
+    <ProjectReference Include="..\NetCore.Kafka.Messages\NetCore.Kafka.Messages.csproj" />
   </ItemGroup>
 </Project>

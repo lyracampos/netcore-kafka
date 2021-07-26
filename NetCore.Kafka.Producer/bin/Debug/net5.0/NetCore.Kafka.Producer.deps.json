@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "NetCore.Kafka.Producer/1.0.0": {
         "dependencies": {
+          "NetCore.Kafka.Messages": "1.0.0",
           "NetCore.Kafka.Platform": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -520,6 +521,14 @@
         }
       },
       "System.Memory/4.5.0": {},
+      "NetCore.Kafka.Messages/1.0.0": {
+        "runtime": {
+          "NetCore.Kafka.Messages.dll": {}
+        },
+        "compile": {
+          "NetCore.Kafka.Messages.dll": {}
+        }
+      },
       "NetCore.Kafka.Platform/1.0.0": {
         "dependencies": {
           "Confluent.Kafka": "1.7.0",
@@ -2316,6 +2325,11 @@
       "sha512": "sha512-m0psCSpUxTGfvwyO0i03ajXVhgBqyXlibXz0Mo1dtKGjaHrXFLnuQ8rNBTmWRqbfRjr4eC6Wah4X5FfuFDu5og==",
       "path": "system.memory/4.5.0",
       "hashPath": "system.memory.4.5.0.nupkg.sha512"
+    },
+    "NetCore.Kafka.Messages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "NetCore.Kafka.Platform/1.0.0": {
       "type": "project",

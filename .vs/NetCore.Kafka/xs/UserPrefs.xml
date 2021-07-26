@@ -1,9 +1,24 @@
 ﻿<Properties StartupConfiguration="{76D167C6-B70C-4809-9EF4-15BEDE066D00}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetCore.Kafka.Platform/Helpers/KafkaSerializer.cs">
+    <Files>
+      <File FileName="NetCore.Kafka.Producer/Controllers/OrderController.cs" Line="23" Column="1" />
+      <File FileName="NetCore.Kafka.Platform/Producer/KafkaProducer.cs" Line="25" Column="1" />
+      <File FileName="NetCore.Kafka.Platform/Helpers/KafkaSerializer.cs" Line="11" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="NetCore.Kafka" selected="True" />
+          <Node name="NetCore.Kafka" expanded="True">
+            <Node name="NetCore.Kafka.Platform" expanded="True">
+              <Node name="Helpers" expanded="True">
+                <Node name="KafkaSerializer.cs" selected="True" />
+              </Node>
+              <Node name="Producer" expanded="True" />
+            </Node>
+            <Node name="NetCore.Kafka.Producer" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
@@ -11,7 +26,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Producer/Controllers/OrderController.cs" relfile="NetCore.Kafka.Producer/Controllers/OrderController.cs" line="22" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.NetCore.Kafka.Producer PreferredExecutionTarget="/Applications/Microsoft Edge.app" />

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PGNSI5mywqXrZVj+QwG3ECgQU/GERjkLloBKl9hgSPtojNk+uxLQ1DsdXgCJbXASvf450ZVKOzCJIYoKtwaGCA==",
+  "dgSpecHash": "hfiE8WfqEibOXcLLNhGK7pJpdx6v4rxDooKjLMgwiiPxIVhRsTgmTn2FMgUXWTe8sfS3DWi4LthIspuO6Bk2AQ==",
   "success": true,
   "projectFilePath": "/Users/guilhermelyracampos/Desktop/kafka/netcore-kafka/NetCore.Kafka.Consumer/NetCore.Kafka.Consumer.csproj",
   "expectedPackageFiles": [
